@@ -1,2 +1,6 @@
 caches/
 install.lock
+
+.buildpath
+.project
+.settings/
