@@ -258,7 +258,7 @@ function create_database($db_host, $db_port, $db_user, $db_pass, $db_name)
     keep_right_conn($conn, $mysql_version);
     if (mysql_select_db($db_name, $conn) === false)
     {
-        $sql = $mysql_version >= '4.1' ? "CREATE DATABASE $db_name DEFAULT CHARACTER SET " . EC_DB_CHARSET : "CREATE DATABASE $db_name";
+        $sql = $mysql_version >= '4.1' ? "CREATE DATABASE `$db_name` DEFAULT CHARACTER SET " . EC_DB_CHARSET : "CREATE DATABASE `$db_name`";
         if (mysql_query($sql, $conn) === false)
         {
             $err->add($_LANG['cannt_create_database']);
