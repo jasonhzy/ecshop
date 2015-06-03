@@ -1,6 +1,6 @@
 caches/
-install.lock
 temp/
+data/install.lock
 
 .buildpath
 .project
