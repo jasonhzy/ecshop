@@ -3,13 +3,13 @@
 $db_host   = "localhost:3306";
 
 // database name
-$db_name   = "weishangcheng_diban_v3";
+$db_name   = "pinet-ecshop";
 
 // database username
 $db_user   = "root";
 
 // database password
-$db_pass   = "123456";
+$db_pass   = "";
 
 // table prefix
 $prefix    = "ecs_";
